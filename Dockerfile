@@ -1,4 +1,4 @@
-FROM alpine:3.9
+FROM alpine:3.12
 WORKDIR /space-cloud
 # Copy the space-cloud binary from the build context to the container's working directory
 COPY space-cloud .
